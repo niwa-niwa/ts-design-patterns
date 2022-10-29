@@ -2,7 +2,8 @@ import Iterator from "./iterator";
 import Adaptor from "./adapter";
 import Adaptor2 from "./adapter/index2";
 import Template from "./template";
-import Factory from "./factory"
+import Factory from "./factory";
+import Singleton from "./singleton"
 
 console.info("TypeScript Design Patterns!");
 
@@ -18,5 +19,8 @@ Template();
 
 console.log("##### Factory #####")
 Factory();
+
+console.log("##### Singleton #####")
+Singleton();
 
 console.info("END");
