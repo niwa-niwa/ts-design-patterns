@@ -5,6 +5,7 @@ import Template from "./template";
 import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
+import Builder from "./builder"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -27,6 +28,9 @@ async function main() {
 
   console.log("##### Prototype #####");
   await Prototype();
+
+  console.log("##### Builder #####")
+  Builder()
 
   console.info("END");
 }
