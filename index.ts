@@ -6,6 +6,7 @@ import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
 import Builder from "./builder"
+import AbstractFactory from "./abstract-factory"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -31,6 +32,11 @@ async function main() {
 
   console.log("##### Builder #####")
   Builder()
+
+  console.log("##### Abstract Factory")
+  AbstractFactory("deep pot","Sukiyaki")
+  AbstractFactory("medium pot","Kimchi")
+  AbstractFactory("wide pot","Mizutaki")
 
   console.info("END");
 }
