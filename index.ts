@@ -7,6 +7,8 @@ import Singleton from "./singleton";
 import Prototype from "./prototype";
 import Builder from "./builder"
 import AbstractFactory from "./abstract-factory"
+import Bridge from "./bridge"
+import Strategy from "./strategy"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -37,6 +39,12 @@ async function main() {
   AbstractFactory("deep pot","Sukiyaki")
   AbstractFactory("medium pot","Kimchi")
   AbstractFactory("wide pot","Mizutaki")
+
+  console.log("##### Brigge #####")
+  Bridge();
+
+  console.log("##### Strategy #####")
+  Strategy();
 
   console.info("END");
 }
