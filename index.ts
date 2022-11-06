@@ -9,42 +9,46 @@ import Builder from "./builder"
 import AbstractFactory from "./abstract-factory"
 import Bridge from "./bridge"
 import Strategy from "./strategy"
+import FactoryMethod from "./FactoryMethod"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
 
-  console.log("##### Iterator #####");
-  Iterator();
+  FactoryMethod();
 
-  console.log("##### Adaptor #####");
-  Adaptor();
-  Adaptor2();
 
-  console.log("##### Template #####");
-  Template();
+  // console.log("##### Iterator #####");
+  // Iterator();
 
-  console.log("##### Factory #####");
-  Factory();
+  // console.log("##### Adaptor #####");
+  // Adaptor();
+  // Adaptor2();
 
-  console.log("##### Singleton #####");
-  Singleton();
+  // console.log("##### Template #####");
+  // Template();
 
-  console.log("##### Prototype #####");
-  await Prototype();
+  // console.log("##### Factory #####");
+  // Factory();
 
-  console.log("##### Builder #####")
-  Builder()
+  // console.log("##### Singleton #####");
+  // Singleton();
 
-  console.log("##### Abstract Factory")
-  AbstractFactory("deep pot","Sukiyaki")
-  AbstractFactory("medium pot","Kimchi")
-  AbstractFactory("wide pot","Mizutaki")
+  // console.log("##### Prototype #####");
+  // await Prototype();
 
-  console.log("##### Brigge #####")
-  Bridge();
+  // console.log("##### Builder #####")
+  // Builder()
 
-  console.log("##### Strategy #####")
-  Strategy();
+  // console.log("##### Abstract Factory")
+  // AbstractFactory("deep pot","Sukiyaki")
+  // AbstractFactory("medium pot","Kimchi")
+  // AbstractFactory("wide pot","Mizutaki")
+
+  // console.log("##### Brigge #####")
+  // Bridge();
+
+  // console.log("##### Strategy #####")
+  // Strategy();
 
   console.info("END");
 }
