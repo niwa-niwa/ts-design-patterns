@@ -10,12 +10,22 @@ import AbstractFactory from "./abstract-factory"
 import Bridge from "./bridge"
 import Strategy from "./strategy"
 import FactoryMethod from "./FactoryMethod"
+import Composite from "./Composite"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
 
-  FactoryMethod();
+  console.log("")
 
+  console.info("Factory Method Start")
+  FactoryMethod();
+  console.log("Factory Method End")
+
+  console.log("")
+
+  console.log("Composite Start")
+  Composite();
+  console.log("Composite End")
 
   // console.log("##### Iterator #####");
   // Iterator();
