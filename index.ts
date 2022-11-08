@@ -11,6 +11,7 @@ import Bridge from "./bridge"
 import Strategy from "./strategy"
 import FactoryMethod from "./FactoryMethod"
 import Composite from "./Composite"
+import Decorator from "./Decorator"
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -26,6 +27,12 @@ async function main() {
   console.log("Composite Start")
   Composite();
   console.log("Composite End")
+  
+  console.log("")
+
+  console.log("Decorator Start")
+  Decorator()
+  console.log("Decorator END")
 
   // console.log("##### Iterator #####");
   // Iterator();
