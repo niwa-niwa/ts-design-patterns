@@ -13,6 +13,7 @@ import FactoryMethod from "./FactoryMethod"
 import Composite from "./Composite"
 import Decorator from "./Decorator"
 import Facade from './Facade'
+import Proxy from './Proxy'
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -38,6 +39,10 @@ async function main() {
   console.log("Facade Start")
   Facade()
   console.log("Facade END")
+  
+  console.log("Proxy Start")
+  await Proxy()
+  console.log("Proxy END")
 
   // console.log("##### Iterator #####");
   // Iterator();
