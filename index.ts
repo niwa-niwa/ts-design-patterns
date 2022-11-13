@@ -5,44 +5,55 @@ import Template from "./template";
 import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
-import Builder from "./builder"
-import AbstractFactory from "./abstract-factory"
-import Bridge from "./bridge"
-import Strategy from "./strategy"
-import FactoryMethod from "./FactoryMethod"
-import Composite from "./Composite"
-import Decorator from "./Decorator"
-import Facade from './Facade'
-import Proxy from './Proxy'
+import Builder from "./builder";
+import AbstractFactory from "./abstract-factory";
+import Bridge from "./bridge";
+import Strategy from "./strategy";
+import FactoryMethod from "./FactoryMethod";
+import Composite from "./Composite";
+import Decorator from "./Decorator";
+import Facade from "./Facade";
+import Proxy from "./Proxy";
+import CoR from "./CoR";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
 
-  console.log("")
+  console.log("");
 
-  console.info("Factory Method Start")
+  console.info("Factory Method Start\n");
   FactoryMethod();
-  console.log("Factory Method End")
+  console.log("Factory Method End\n");
 
-  console.log("")
+  console.log("");
 
-  console.log("Composite Start")
+  console.log("Composite Start\n");
   Composite();
-  console.log("Composite End")
-  
-  console.log("")
+  console.log("Composite End\n");
 
-  console.log("Decorator Start")
-  Decorator()
-  console.log("Decorator END")
+  console.log("");
 
-  console.log("Facade Start")
-  Facade()
-  console.log("Facade END")
-  
-  console.log("Proxy Start")
-  await Proxy()
-  console.log("Proxy END")
+  console.log("Decorator Start\n");
+  Decorator();
+  console.log("Decorator END\n");
+
+  console.log("");
+
+  console.log("Facade Start\n");
+  Facade();
+  console.log("Facade END\n");
+
+  console.log("");
+
+  console.log("Proxy Start\n");
+  await Proxy();
+  console.log("Proxy END\n");
+
+  console.log("");
+
+  console.log("\nCoR Start\n");
+  CoR();
+  console.log("\nCoR END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
@@ -77,6 +88,6 @@ async function main() {
   // console.log("##### Strategy #####")
   // Strategy();
 
-  console.info("END");
+  console.info("END\n");
 }
 main();
