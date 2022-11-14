@@ -16,6 +16,7 @@ import Facade from "./Facade";
 import Proxy from "./Proxy";
 import CoR from "./CoR";
 import Command from "./Command";
+import Memento from "./Memento";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -56,9 +57,13 @@ async function main() {
   CoR();
   console.log("\nCoR END\n");
 
-  console.log("\Command Start\n");
+  console.log("\nCommand Start\n");
   Command();
-  console.log("\Command END\n");
+  console.log("\nCommand END\n");
+
+  console.log("\nMemento Start\n");
+  Memento();
+  console.log("\nMemento END\n");
 
 
   // console.log("##### Iterator #####");
