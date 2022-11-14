@@ -15,6 +15,7 @@ import Decorator from "./Decorator";
 import Facade from "./Facade";
 import Proxy from "./Proxy";
 import CoR from "./CoR";
+import Command from "./Command";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -54,6 +55,11 @@ async function main() {
   console.log("\nCoR Start\n");
   CoR();
   console.log("\nCoR END\n");
+
+  console.log("\Command Start\n");
+  Command();
+  console.log("\Command END\n");
+
 
   // console.log("##### Iterator #####");
   // Iterator();
