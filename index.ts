@@ -17,6 +17,7 @@ import Proxy from "./Proxy";
 import CoR from "./CoR";
 import Command from "./Command";
 import Memento from "./Memento";
+import Observer from "./Observer";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -65,6 +66,9 @@ async function main() {
   Memento();
   console.log("\nMemento END\n");
 
+  console.log("\nObserver Start\n");
+  Observer();
+  console.log("\nObserver END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
