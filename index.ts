@@ -18,6 +18,7 @@ import CoR from "./CoR";
 import Command from "./Command";
 import Memento from "./Memento";
 import Observer from "./Observer";
+import State from "./State";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -69,6 +70,10 @@ async function main() {
   console.log("\nObserver Start\n");
   Observer();
   console.log("\nObserver END\n");
+
+  console.log("\nState Start\n");
+  State();
+  console.log("\nState END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
