@@ -19,6 +19,7 @@ import Command from "./Command";
 import Memento from "./Memento";
 import Observer from "./Observer";
 import State from "./State";
+import TemplateMethod from "./TemplateMethod";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -74,6 +75,10 @@ async function main() {
   console.log("\nState Start\n");
   State();
   console.log("\nState END\n");
+
+  console.log("\nTemplateMethod Start\n");
+  TemplateMethod();
+  console.log("\nTemplateMethod END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
