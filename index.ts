@@ -6,7 +6,7 @@ import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
 import Builder from "./builder";
-import AbstractFactory from "./abstract-factory";
+import AbstractFactory, { secondAbstractFactory } from "./abstract-factory";
 import Bridge from "./bridge";
 import Strategy from "./strategy";
 import FactoryMethod from "./FactoryMethod";
@@ -51,9 +51,9 @@ async function main() {
 
   console.log("");
 
-  console.log("Proxy Start\n");
-  await Proxy();
-  console.log("Proxy END\n");
+  // console.log("Proxy Start\n");
+  // await Proxy();
+  // console.log("Proxy END\n");
 
   console.log("");
 
@@ -84,6 +84,10 @@ async function main() {
   console.log("\nVisitor Start\n");
   Visitor();
   console.log("\nVisitor END\n");
+
+  console.log("\nsecondAbstractFactory Start\n");
+  secondAbstractFactory();
+  console.log("\nsecondAbstractFactory END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
