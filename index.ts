@@ -21,6 +21,7 @@ import Observer from "./Observer";
 import State from "./State";
 import TemplateMethod from "./TemplateMethod";
 import Visitor from "./Visitor";
+import Interpreter from "./Interpreter";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -88,6 +89,10 @@ async function main() {
   console.log("\nsecondAbstractFactory Start\n");
   secondAbstractFactory();
   console.log("\nsecondAbstractFactory END\n");
+
+  console.log("\nInterpreter Start\n");
+  Interpreter();
+  console.log("\nInterpreter END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
