@@ -6,6 +6,7 @@ import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
 import Builder from "./builder";
+import Builder2 from './builder/builder/client'
 import AbstractFactory, { secondAbstractFactory } from "./abstract-factory";
 import Bridge from "./bridge";
 import Strategy from "./strategy";
@@ -93,6 +94,10 @@ async function main() {
   console.log("\nInterpreter Start\n");
   Interpreter();
   console.log("\nInterpreter END\n");
+
+  console.log("\nBuilder2 Start\n");
+  Builder2();
+  console.log("\nBuilder2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
