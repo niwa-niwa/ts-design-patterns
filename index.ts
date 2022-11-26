@@ -11,6 +11,7 @@ import Builder2 from "./builder/builder/client";
 import AbstractFactory, { secondAbstractFactory } from "./abstract-factory";
 import Bridge from "./bridge";
 import Strategy from "./strategy";
+import Strategy2 from "./strategy/strategy/client";
 import FactoryMethod from "./FactoryMethod";
 import Composite from "./Composite";
 import Decorator from "./Decorator";
@@ -103,6 +104,10 @@ async function main() {
   console.log("\nAdaptor3 Start\n");
   await Adaptor3;
   console.log("\nAdaptor3 END\n");
+
+  console.log("\nStrategy2 Start\n");
+  Strategy2();
+  console.log("\nStrategy2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
