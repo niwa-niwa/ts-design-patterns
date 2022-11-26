@@ -1,12 +1,13 @@
 import Iterator from "./iterator";
 import Adaptor from "./adapter";
 import Adaptor2 from "./adapter/index2";
+import Adaptor3 from "./adapter/adapter/clients";
 import Template from "./template";
 import Factory from "./factory";
 import Singleton from "./singleton";
 import Prototype from "./prototype";
 import Builder from "./builder";
-import Builder2 from './builder/builder/client'
+import Builder2 from "./builder/builder/client";
 import AbstractFactory, { secondAbstractFactory } from "./abstract-factory";
 import Bridge from "./bridge";
 import Strategy from "./strategy";
@@ -98,6 +99,10 @@ async function main() {
   console.log("\nBuilder2 Start\n");
   Builder2();
   console.log("\nBuilder2 END\n");
+
+  console.log("\nAdaptor3 Start\n");
+  await Adaptor3;
+  console.log("\nAdaptor3 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
