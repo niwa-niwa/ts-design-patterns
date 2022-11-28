@@ -15,6 +15,7 @@ import Strategy2 from "./strategy/strategy/client";
 import FactoryMethod from "./FactoryMethod";
 import Composite from "./Composite";
 import Decorator from "./Decorator";
+import Decorator2 from "./Decorator/decorator/client";
 import Facade from "./Facade";
 import Proxy from "./Proxy";
 import CoR from "./CoR";
@@ -108,6 +109,10 @@ async function main() {
   console.log("\nStrategy2 Start\n");
   Strategy2();
   console.log("\nStrategy2 END\n");
+
+  console.log("\nDecorator2 Start\n");
+  Decorator2();
+  console.log("\nDecorator2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
