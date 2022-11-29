@@ -17,6 +17,7 @@ import Composite from "./Composite";
 import Decorator from "./Decorator";
 import Decorator2 from "./Decorator/decorator/client";
 import Facade from "./Facade";
+import Facade2 from "./Facade/facade/client";
 import Proxy from "./Proxy";
 import CoR from "./CoR";
 import Command from "./Command";
@@ -113,6 +114,10 @@ async function main() {
   console.log("\nDecorator2 Start\n");
   Decorator2();
   console.log("\nDecorator2 END\n");
+
+  console.log("\nFacade2 Start\n");
+  await Facade2();
+  console.log("\nFacade2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
