@@ -27,6 +27,8 @@ import State from "./State";
 import TemplateMethod from "./TemplateMethod";
 import Visitor from "./Visitor";
 import Interpreter from "./Interpreter";
+import Mediator2 from "./Mediator/client";
+import Mediator from "./Mediator/";
 
 async function main() {
   console.info("TypeScript Design Patterns!");
@@ -118,6 +120,10 @@ async function main() {
   console.log("\nFacade2 Start\n");
   await Facade2();
   console.log("\nFacade2 END\n");
+
+  console.log("\nMediator Start\n");
+  Mediator();
+  console.log("\nMediator END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
