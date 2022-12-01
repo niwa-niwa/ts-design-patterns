@@ -13,6 +13,7 @@ import Bridge from "./bridge";
 import Strategy from "./strategy";
 import Strategy2 from "./strategy/strategy/client";
 import FactoryMethod from "./FactoryMethod";
+import factory2 from "./FactoryMethod/factory/client";
 import Composite from "./Composite";
 import Decorator from "./Decorator";
 import Decorator2 from "./Decorator/decorator/client";
@@ -124,6 +125,10 @@ async function main() {
   console.log("\nMediator Start\n");
   Mediator();
   console.log("\nMediator END\n");
+
+  console.log("\nfactory2 Start\n");
+  factory2();
+  console.log("\nfactory2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
