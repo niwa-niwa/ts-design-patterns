@@ -24,6 +24,7 @@ import CoR from "./CoR";
 import Command from "./Command";
 import Memento from "./Memento";
 import Observer from "./Observer";
+import Observer2 from "./Observer/observer/client";
 import State from "./State";
 import TemplateMethod from "./TemplateMethod";
 import Visitor from "./Visitor";
@@ -129,6 +130,10 @@ async function main() {
   console.log("\nfactory2 Start\n");
   factory2();
   console.log("\nfactory2 END\n");
+
+  console.log("\nObserver2 Start\n");
+  Observer2();
+  console.log("\nObserver2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
