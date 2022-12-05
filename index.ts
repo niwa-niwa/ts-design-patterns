@@ -27,6 +27,7 @@ import Memento from "./Memento";
 import Observer from "./Observer";
 import Observer2 from "./Observer/observer/client";
 import State from "./State";
+import State2 from "./State/state/client";
 import TemplateMethod from "./TemplateMethod";
 import Visitor from "./Visitor";
 import Interpreter from "./Interpreter";
@@ -139,6 +140,10 @@ async function main() {
   console.log("\nProxy2 Start\n");
   Proxy2();
   console.log("\nProxy2 END\n");
+
+  console.log("\nState2 Start\n");
+  State2();
+  console.log("\nState2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
