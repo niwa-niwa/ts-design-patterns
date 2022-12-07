@@ -23,6 +23,7 @@ import Proxy from "./Proxy";
 import Proxy2 from "./Proxy/proxy/client";
 import CoR from "./CoR";
 import Command from "./Command";
+import Command2 from "./Command/command/clients";
 import Memento from "./Memento";
 import Observer from "./Observer";
 import Observer2 from "./Observer/observer/client";
@@ -144,6 +145,10 @@ async function main() {
   console.log("\nState2 Start\n");
   State2();
   console.log("\nState2 END\n");
+
+  console.log("\nCommand2 Start\n");
+  Command2();
+  console.log("\nCommand2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
