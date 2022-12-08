@@ -25,6 +25,7 @@ import CoR from "./CoR";
 import Command from "./Command";
 import Command2 from "./Command/command/clients";
 import Memento from "./Memento";
+import Memento2 from "./Memento/memento/client";
 import Observer from "./Observer";
 import Observer2 from "./Observer/observer/client";
 import State from "./State";
@@ -146,9 +147,9 @@ async function main() {
   State2();
   console.log("\nState2 END\n");
 
-  console.log("\nCommand2 Start\n");
-  Command2();
-  console.log("\nCommand2 END\n");
+  console.log("\nMemento2 Start\n");
+  Memento2();
+  console.log("\nMemento2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
