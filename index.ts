@@ -10,6 +10,7 @@ import Builder from "./builder";
 import Builder2 from "./builder/builder/client";
 import AbstractFactory, { secondAbstractFactory } from "./abstract-factory";
 import Bridge from "./bridge";
+import Bridge2 from "./bridge/Bridge/client";
 import Strategy from "./strategy";
 import Strategy2 from "./strategy/strategy/client";
 import FactoryMethod from "./FactoryMethod";
@@ -150,6 +151,10 @@ async function main() {
   console.log("\nMemento2 Start\n");
   Memento2();
   console.log("\nMemento2 END\n");
+
+  console.log("\nBridge2 Start\n");
+  Bridge2();
+  console.log("\nBridge2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
