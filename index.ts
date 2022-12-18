@@ -24,6 +24,7 @@ import Facade2 from "./Facade/facade/client";
 import Proxy from "./Proxy";
 import Proxy2 from "./Proxy/proxy/client";
 import CoR from "./CoR";
+import CoR2 from "./CoR/COR/client";
 import Command from "./Command";
 import Command2 from "./Command/command/clients";
 import Memento from "./Memento";
@@ -165,6 +166,10 @@ async function main() {
   console.log("\nInterpreter2 Start\n");
   Interpreter2();
   console.log("\nInterpreter2 END\n");
+
+  console.log("\nCoR2 Start\n");
+  CoR2();
+  console.log("\nCoR2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
