@@ -35,6 +35,7 @@ import State from "./State";
 import State2 from "./State/state/client";
 import TemplateMethod from "./TemplateMethod";
 import Visitor from "./Visitor";
+import Visitor2 from "./Visitor/visitor/client";
 import Interpreter from "./Interpreter";
 import Interpreter2 from "./Interpreter/interpreter/client";
 import Mediator2 from "./Mediator/client";
@@ -170,6 +171,10 @@ async function main() {
   console.log("\nCoR2 Start\n");
   CoR2();
   console.log("\nCoR2 END\n");
+
+  console.log("\nVisitor2 Start\n");
+  Visitor2();
+  console.log("\nVisitor2 END\n");
 
   // console.log("##### Iterator #####");
   // Iterator();
